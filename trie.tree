@@ -1,0 +1,113 @@
+digraph {
+graph [
+  nodesep=0.25,
+  ranksep=0.3,
+  splines=line
+];
+node [
+  style=filled,
+  fillcolor=lightblue,
+  shape=circle
+];
+edge [
+  arrowsize=0.8,
+  color=black
+];
+
+123145302211248 [
+  label=""
+];
+123145301102864 [
+  label="a"
+];
+123145297118352 [
+  label="b"
+];
+123145297119192 [
+  label="c"
+  xlabel=<<FONT COLOR="grey25" POINT-SIZE="12">abc</FONT>>
+  fillcolor="forestgreen"
+  color="black"
+];
+123145301450680 [
+  label="l"
+];
+123145297119528 [
+  label="e"
+];
+123145297119640 [
+  label="t"
+];
+123145297119752 [
+  label="t"
+  xlabel=<<FONT COLOR="grey25" POINT-SIZE="12">lett</FONT>>
+  fillcolor="forestgreen"
+  color="black"
+];
+123145297119864 [
+  label="e"
+  xlabel=<<FONT COLOR="grey25" POINT-SIZE="12">lette</FONT>>
+  fillcolor="forestgreen"
+  color="black"
+];
+123145297119976 [
+  label="r"
+  xlabel=<<FONT COLOR="grey25" POINT-SIZE="12">letter</FONT>>
+  fillcolor="forestgreen"
+  color="black"
+];
+123145301450232 [
+  label="w"
+];
+123145297120480 [
+  label="o"
+];
+123145297120592 [
+  label="r"
+];
+123145297120704 [
+  label="m"
+  xlabel=<<FONT COLOR="grey25" POINT-SIZE="12">worm</FONT>>
+  fillcolor="forestgreen"
+  color="black"
+];
+123145297118352 -> 123145297119192 [
+
+];
+123145301102864 -> 123145297118352 [
+
+];
+123145302211248 -> 123145301102864 [
+
+];
+123145297119864 -> 123145297119976 [
+
+];
+123145297119752 -> 123145297119864 [
+
+];
+123145297119640 -> 123145297119752 [
+
+];
+123145297119528 -> 123145297119640 [
+
+];
+123145301450680 -> 123145297119528 [
+
+];
+123145302211248 -> 123145301450680 [
+
+];
+123145297120592 -> 123145297120704 [
+
+];
+123145297120480 -> 123145297120592 [
+
+];
+123145301450232 -> 123145297120480 [
+
+];
+123145302211248 -> 123145301450232 [
+
+];
+}
